@@ -1,0 +1,26 @@
+html {
+  background: white;
+}
+
+.campo {
+  text-align: right;
+}
+
+.fila-boton {
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.error {
+  border-color: blue;
+}
+
+tr {
+  padding-bottom: 10px !important;
+}
+
+#createForm {
+  border: solid 1px #2c2c2c;
+  width: 300px;
+  padding: 0.7rem;
+}

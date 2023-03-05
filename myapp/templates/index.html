@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Lista de Discos</h1>
+
+<a href="/create">Añadir</a>
+
+<ul>
+  {% for contact in contacts %}
+  <li>
+    {{ contact.nick }}
+    <a href="/update/{{ contact.uid }}">Refrescar</a>
+    <a href="/delete/{{ contact.uid }}">Eliminar</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
