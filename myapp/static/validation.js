@@ -10,8 +10,7 @@ var hideButton = document.getElementById("hideButton");
 var showButton = document.getElementById("showButton");
 
 function onSubmitClicked(event) {
-  // var nickInput = document.geteElementById("nick_input");
-  // console.log("Here");
+  
   if (nick.value.trim().length === 0) {
     nick.classList.add("error");
     alert("Nick required");
